@@ -1,4 +1,5 @@
-// components/sections/Eventos.tsx
+"use client";
+
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Calendar as CalendarIcon } from "lucide-react";
 

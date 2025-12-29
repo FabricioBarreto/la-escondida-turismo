@@ -1,4 +1,5 @@
-// components/sections/Imperdibles.tsx
+"use client";
+
 import {
   Card,
   CardContent,

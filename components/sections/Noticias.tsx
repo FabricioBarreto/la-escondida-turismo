@@ -1,4 +1,5 @@
-// components/sections/Noticias.tsx
+"use client";
+
 import {
   Card,
   CardContent,
