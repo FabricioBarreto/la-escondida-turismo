@@ -1,0 +1,512 @@
+{
+  "nav": {
+    "imperdibles": "Imperdíveis",
+    "planifica": "Planeje",
+    "alojamiento": "Hospedagem",
+    "gastronomia": "Gastronomia",
+    "eventos": "Eventos",
+    "noticias": "Notícias"
+  },
+  "hero": {
+    "title": "La Escondida",
+    "subtitle": "Turismo no Coração do Chaco",
+    "description": "Descubra a natureza, cultura e tradições do interior chaqueño. Um destino autêntico onde a aventura e a tranquilidade se encontram.",
+    "cta": "Explore La Escondida",
+    "slides": [
+      {
+        "titulo": "Bem-vindos a La Escondida",
+        "subtitulo": "Seu refúgio natural no Chaco"
+      },
+      {
+        "titulo": "Rio Paraná",
+        "subtitulo": "Praias e aventuras aquáticas"
+      },
+      {
+        "titulo": "Natureza Pura",
+        "subtitulo": "Descubra paisagens únicas"
+      }
+    ]
+  },
+  "imperdibles": {
+    "title": "Imperdíveis de La Escondida e Chaco",
+    "subtitle": "Descubra natureza selvagem, patrimônio cultural e tradições autênticas no coração do Chaco argentino",
+    "mejorEpoca": "Melhor época para visitar: Abril - Novembro (clima agradável 15-28°C)",
+    "fauna": "Fauna em destaque: Onça-pintada, Anta, Seriema, Dourado, Surubim",
+    "items": [
+      {
+        "titulo": "Resistencia - Cidade das Esculturas",
+        "descripcion": "Capital Nacional das Esculturas com mais de 650 obras ao ar livre. Museu a céu aberto reconhecido mundialmente.",
+        "duracion": "Meio dia - Dia inteiro",
+        "distancia": "70 km",
+        "highlights": [
+          "Bienal Internacional",
+          "El Fogón de los Arrieros",
+          "+ 650 esculturas"
+        ]
+      },
+      {
+        "titulo": "Ilha do Cerrito - Pesca Esportiva",
+        "descripcion": "Um dos melhores pesqueiros da Argentina. Pesque dourados, surubins e pacus nos rios Paraná e Paraguai.",
+        "duracion": "Dia inteiro",
+        "distancia": "90 km",
+        "highlights": [
+          "Torneio Internacional do Dourado",
+          "Gastronomia do rio",
+          "Passeios náuticos"
+        ]
+      },
+      {
+        "titulo": "Parque Nacional Chaco",
+        "descripcion": "Florestas, lagoas e 350 espécies de aves. Trilhas, mirantes e observação de fauna autóctone do Chaco úmido.",
+        "duracion": "Meio dia",
+        "distancia": "130 km",
+        "highlights": [
+          "350 espécies de aves",
+          "Lagoa Yacaré",
+          "Camping"
+        ]
+      },
+      {
+        "titulo": "Parque Nacional El Impenetrable",
+        "descripcion": "128.000 hectares do mítico Chaco Seco. Onças, antas e mais de 300 espécies de aves em estado selvagem.",
+        "duracion": "2-3 dias",
+        "distancia": "400 km",
+        "highlights": [
+          "Rio Bermejo",
+          "Safari fotográfico",
+          "Glamping"
+        ]
+      },
+      {
+        "titulo": "Patrimônio Industrial - Fábrica de Tanino",
+        "descripcion": "História viva de La Escondida. Fundada em 1927 junto à Indunor S.A., uma das duas fábricas de tanino do Chaco.",
+        "duracion": "2-3 horas",
+        "distancia": "Em La Escondida",
+        "highlights": [
+          "História desde 1927",
+          "Arquitetura industrial",
+          "Tradição do tanino"
+        ]
+      },
+      {
+        "titulo": "Cavalgada de São Carlos Borromeu",
+        "descripcion": "Tradição chaqueña todo último domingo de outubro. Cavaleiros desde El Cacique Llorón com festival folclórico.",
+        "duracion": "Dia inteiro",
+        "distancia": "Em La Escondida",
+        "highlights": [
+          "Tradição desde 1927",
+          "Festival folclórico",
+          "Festa patronal 4 Nov"
+        ]
+      }
+    ]
+  },
+  "planifica": {
+    "title": "Planeje sua Visita",
+    "subtitle": "Tudo que você precisa saber para aproveitar ao máximo sua estadia em La Escondida",
+    "comoLlegar": {
+      "title": "Como Chegar",
+      "fromResistencia": "De Resistencia",
+      "distance": "70 km pela Rota Provincial 11",
+      "time": "Tempo estimado",
+      "duration": "1 hora de carro",
+      "access": "Acesso",
+      "accessType": "Estrada asfaltada e sinalizada",
+      "button": "Ver no Google Maps",
+      "location": "Departamento General Donovan, Chaco"
+    },
+    "alojamiento": {
+      "title": "Hospedagem",
+      "description": "Opções de hospedagem para todos os gostos e orçamentos",
+      "options": {
+        "hosterias": "Pousadas e hostelarias",
+        "cabanas": "Chalés equipados",
+        "camping": "Camping e glamping",
+        "hoteles": "Hotéis em Resistencia"
+      },
+      "button": "Ver Opções"
+    },
+    "gastronomia": {
+      "title": "Gastronomia",
+      "description": "Sabores autênticos do Chaco e do Litoral argentino",
+      "options": {
+        "pescados": "Peixes de rio frescos",
+        "parrilla": "Churrasco chaqueño",
+        "chipa": "Chipá e comidas típicas",
+        "regional": "Cozinha regional"
+      },
+      "button": "Descobrir Sabores"
+    },
+    "infoUtil": {
+      "title": "Informações Úteis para sua Viagem",
+      "mejorEpoca": {
+        "title": "Melhor época para visitar",
+        "abrNov": "Abril - Novembro: Clima ideal (15-28°C) para atividades ao ar livre",
+        "dicMar": "Dezembro - Março: Verão quente (30-40°C), ideal para atividades aquáticas"
+      },
+      "servicios": {
+        "title": "Serviços disponíveis",
+        "estaciones": "Postos de gasolina na estrada",
+        "cajeros": "Caixas eletrônicos em localidades próximas",
+        "telefonia": "Cobertura de telefonia móvel",
+        "wifi": "WiFi nas hospedagens"
+      },
+      "transporte": {
+        "title": "Transporte público",
+        "description": "Linhas de ônibus desde o Terminal de Resistencia. Consultar horários atualizados."
+      },
+      "aeropuerto": {
+        "title": "Aeroporto mais próximo",
+        "description": "Aeroporto Internacional de Resistencia (90 km). Voos diretos de Buenos Aires e Córdoba."
+      },
+      "whatsappButton": "Fale conosco pelo WhatsApp"
+    }
+  },
+  "alojamiento": {
+    "fueraDeLocalidad": "Fora de La Escondida",
+    "title": "Onde se Hospedar",
+    "subtitle": "De chalés à beira do rio a hotéis premium em Resistencia. Encontre a hospedagem perfeita para sua estadia no Chaco.",
+    "recomendado": "Recomendado",
+    "servicios": "Serviços:",
+    "rangoPrecio": "Faixa de preço:",
+    "porNoche": "por noite",
+    "masServicios": "serviços a mais",
+    "consultarBtn": "Verificar Disponibilidade",
+    "tipsTitle": "Dicas para escolher hospedagem",
+    "tips": [
+      "Em La Escondida: Ideal para a experiência local e acesso rápido aos locais históricos",
+      "Resistencia: Mais opções, restaurantes e serviços. Base para explorar a região",
+      "Camping: Para amantes da natureza e orçamentos reduzidos",
+      "Chalés: Perfeitos para famílias que buscam privacidade e cozinhar"
+    ],
+    "reservasTitle": "Recomendações de reserva",
+    "reservas": [
+      "Alta temporada: Reserve com 2-3 semanas de antecedência (set-nov)",
+      "Torneio de Pesca: Reserve com 2 meses de antecedência (5-7 set)",
+      "Bienal de Esculturas: Hotéis em Resistencia lotam rápido (julho)",
+      "Melhor preço: Baixa temporada (dez-mar) mas considere o calor"
+    ],
+    "ayudaTitle": "Precisa de ajuda para encontrar hospedagem?",
+    "ayudaSubtitle": "Entre em contato e te aconselhamos conforme suas preferências e orçamento",
+    "ayudaBtn": "Fale conosco pelo WhatsApp",
+    "precios": {
+      "$": "$2,000 - $5,000",
+      "$$": "$5,000 - $15,000",
+      "$$$": "$15,000 - $35,000"
+    }
+  },
+  "gastronomia": {
+    "fueraDeLocalidad": "Fora de La Escondida",
+    "title": "Sabores do Chaco",
+    "subtitle": "Descubra a autêntica gastronomia chaqueña: peixes de rio, churrascos tradicionais e herança guaraní em cada prato",
+    "dondeComer": "Onde Comer",
+    "platosTipicos": "Pratos Típicos do Chaco",
+    "recomendado": "Recomendado",
+    "especialidades": "Especialidades:",
+    "precioPromedio": "Preço médio:",
+    "pescadosTitle": "Peixes de Rio do Paraná",
+    "saboresTitle": "Sabores Tradicionais",
+    "guiaTitle": "Guia Gastronômico do Chaco",
+    "dondeEncontrar": "Onde encontrar cada especialidade",
+    "dondeItems": [
+      "Peixes frescos: Ilha do Cerrito, Puerto Vilelas",
+      "Churrascos tradicionais: Centro de Resistencia",
+      "Comida caseira: La Escondida, La Verde",
+      "Chipá artesanal: Feiras e padarias locais"
+    ],
+    "rangoTitle": "Faixa de preços",
+    "rangoItems": [
+      "Econômico ($): Fondas e lanchonetes $3.000-6.000",
+      "Moderado ($$): Restaurantes $6.000-12.000",
+      "Premium ($$$): Alta gastronomia $12.000-25.000",
+      "Dica: O almoço costuma ser mais barato que o jantar"
+    ],
+    "recomendacionesTitle": "Procura recomendações personalizadas?",
+    "recomendacionesSubtitle": "Sugerimos os melhores lugares conforme seu orçamento e preferências",
+    "whatsappBtn": "Fale conosco pelo WhatsApp",
+    "horariosTitle": "Horários típicos no Chaco",
+    "horarios": "Almoço: 12:00 - 15:00 • Jantar: 20:00 - 24:00",
+    "horariosNota": "Aos domingos ao meio-dia muitos restaurantes oferecem cardápios especiais",
+    "precios": {
+      "$": "$3.000 - $6.000 por pessoa",
+      "$$": "$6.000 - $12.000 por pessoa",
+      "$$$": "$12.000 - $25.000 por pessoa"
+    },
+    "pescados": [
+      {
+        "nombre": "Surubim",
+        "descripcion": "O mais popular. Carne branca, firme e saborosa. Ideal grelhado ou à milanesa."
+      },
+      {
+        "nombre": "Dourado",
+        "descripcion": "O peixe esportivo por excelência. Sabor intenso, melhor fresco do dia."
+      },
+      {
+        "nombre": "Pacu",
+        "descripcion": "Muito saboroso frito ou grelhado. Típico da região, imperdível."
+      },
+      {
+        "nombre": "Boga",
+        "descripcion": "Peixe pequeno, excelente frito. Econômico e delicioso."
+      }
+    ],
+    "sabores": [
+      {
+        "nombre": "Chipá",
+        "descripcion": "Pãozinho de queijo e amido de mandioca. Consumido quente ou frio com mate."
+      },
+      {
+        "nombre": "Mel de Cana",
+        "descripcion": "Doce regional usado em sobremesas e cervejas artesanais."
+      },
+      {
+        "nombre": "Tereré",
+        "descripcion": "Mate frio com ervas. A bebida social do verão chaqueño."
+      },
+      {
+        "nombre": "Churrasco Nortenho",
+        "descripcion": "Cortes grelhados com influência guaraní e criolla."
+      }
+    ],
+    "restaurantes": [
+      {
+        "nombre": "Casa de Comidas Isabella",
+        "tipo": "Comida Caseira",
+        "descripcion": "Comida caseira abundante no Barrio San José. Milanesas, massas, frango assado, tortas e mais. Porções generosas, preço acessível.",
+        "especialidades": [
+          "Milanesa napolitana",
+          "Macarrão caseiro",
+          "Frango assado",
+          "Torta de espinafre"
+        ],
+        "ubicacion": "Barrio San José, La Escondida",
+        "precio": "$",
+        "destacado": true
+      },
+      {
+        "nombre": "Comedor Delicias",
+        "tipo": "Parador Gastronômico",
+        "descripcion": "Parador na Rota 9 com salão e deck externo. Aberto desde as 5h todos os dias. Ideal para uma parada ou jantar.",
+        "especialidades": [
+          "Milanesas",
+          "Batatas fritas",
+          "Pratos do dia",
+          "Refeições rápidas"
+        ],
+        "ubicacion": "Rota 9, acesso La Escondida",
+        "precio": "$",
+        "destacado": true
+      },
+      {
+        "nombre": "Bufet La Gloriosa",
+        "tipo": "Lanchonete Local",
+        "descripcion": "Opção de comida caseira local em La Escondida, de Rosa Núñez. Consultar disponibilidade e cardápio do dia.",
+        "especialidades": [
+          "Cardápio do dia",
+          "Comida caseira",
+          "Pratos regionais",
+          "Para viagem"
+        ],
+        "ubicacion": "La Escondida",
+        "precio": "$",
+        "destacado": true
+      },
+      {
+        "nombre": "El Fogón de los Arrieros",
+        "tipo": "Churrascaria Tradicional",
+        "descripcion": "Icônico centro cultural e restaurante de Resistencia desde 1943. Churrasco argentino de primeira qualidade em ambiente histórico.",
+        "especialidades": [
+          "Costela",
+          "Fraldinha",
+          "Bife de chorizo",
+          "Rodízio completo"
+        ],
+        "ubicacion": "Resistencia (70 km)",
+        "precio": "$$",
+        "destacado": false
+      },
+      {
+        "nombre": "Restaurante del Puerto",
+        "tipo": "Peixes de Rio",
+        "descripcion": "Especializado em peixes frescos do Paraná. Surubim, dourado e pacu grelhados, na chapa ou ao forno.",
+        "especialidades": [
+          "Surubim grelhado",
+          "Dourado ao limão",
+          "Pacu frito",
+          "Milanesa de surubim"
+        ],
+        "ubicacion": "Ilha do Cerrito (90 km)",
+        "precio": "$$",
+        "destacado": false
+      },
+      {
+        "nombre": "La Querencia",
+        "tipo": "Cozinha Regional",
+        "descripcion": "Sabores autênticos do norte argentino em Resistencia. Pratos típicos chaqueños em ambiente acolhedor com decoração tradicional.",
+        "especialidades": [
+          "Locro nortenho",
+          "Empanadas criollas",
+          "Humita",
+          "Tamales"
+        ],
+        "ubicacion": "Resistencia (70 km)",
+        "precio": "$$",
+        "destacado": false
+      }
+    ],
+    "platosList": [
+      {
+        "nombre": "Chipá",
+        "descripcion": "Pãozinho de queijo guaraní feito com amido de mandioca. Acompanhamento perfeito para o mate.",
+        "categoria": "Tradicional"
+      },
+      {
+        "nombre": "Surubim",
+        "descripcion": "Peixe de rio do Paraná, grelhado ou frito. Sabor suave e textura firme.",
+        "categoria": "Peixe"
+      },
+      {
+        "nombre": "Locro Nortenho",
+        "descripcion": "Ensopado tradicional com milho, feijão, carne e verduras. Versão chaqueña do clássico argentino.",
+        "categoria": "Tradicional"
+      },
+      {
+        "nombre": "Dourado",
+        "descripcion": "O rei dos rios. Peixe esportivo por excelência, servido fresco do Paraná.",
+        "categoria": "Peixe"
+      },
+      {
+        "nombre": "Mbeyú",
+        "descripcion": "Tortilha de amido de mandioca com queijo. Especialidade guaraní do litoral argentino.",
+        "categoria": "Tradicional"
+      },
+      {
+        "nombre": "Churrasco Chaqueño",
+        "descripcion": "Cortes de carne grelhados ao estilo nortenho. Servido com chipá e saladas.",
+        "categoria": "Churrasco"
+      }
+    ]
+  },
+  "eventos": {
+    "title": "Eventos e Festivais",
+    "subtitle": "Viva a tradição chaqueña, os sabores locais e a natureza em estado puro ao longo do ano",
+    "fueraDeLocalidad": "Fora de La Escondida",
+    "calendarioTitle": "Calendário Turístico Chaco 2025",
+    "tipLabel": "Dica:",
+    "tip": "Para El Impenetrable e o Parque Nacional Chaco, verificar condições das estradas na época de chuvas (Dez-Mar)",
+    "tipos": {
+      "deportivo": "Esportivo",
+      "cultural": "Cultural",
+      "religioso": "Religioso",
+      "arte": "Arte",
+      "naturaleza": "Natureza",
+      "gastronomico": "Gastronômico"
+    },
+    "items": [
+      {
+        "fecha": "Mar",
+        "año": "2026",
+        "titulo": "Festival Regional do Guisado",
+        "lugar": "Km 548, La Escondida",
+        "descripcion": "Festival gastronômico regional com competição de guisados, música ao vivo e participação comunitária. Organizado pela Prefeitura de La Escondida.",
+        "tipo": "Gastronômico"
+      },
+      {
+        "fecha": "5-7 Set",
+        "año": "2025",
+        "titulo": "XXI Torneio Internacional de Pesca do Dourado",
+        "lugar": "Ilha do Cerrito",
+        "descripcion": "Pesca com devolução. Recorde esperado: 400-450 embarcações. Inclui atividades culturais, gastronômicas e torneio infantil.",
+        "tipo": "Esportivo"
+      },
+      {
+        "fecha": "26 Out",
+        "año": "2025",
+        "titulo": "Cavalgada de Bênçãos a São Carlos Borromeu",
+        "lugar": "La Escondida",
+        "descripcion": "Tradição chaqueña. Cavaleiros desde El Cacique Llorón (Km 548) por todos os bairros. Festival folclórico incluído.",
+        "tipo": "Cultural"
+      },
+      {
+        "fecha": "4 Nov",
+        "año": "2025",
+        "titulo": "Festa Patronal de São Carlos Borromeu",
+        "lugar": "La Escondida",
+        "descripcion": "Aniversário da fundação de La Escondida (1927). Celebração religiosa, feira artesanal e atividades tradicionais.",
+        "tipo": "Religioso"
+      },
+      {
+        "fecha": "Julho",
+        "año": "2026",
+        "titulo": "XIII Bienal Internacional de Esculturas",
+        "lugar": "Resistencia",
+        "descripcion": "Artistas do mundo todo criam obras ao ar livre. Mais de 650.000 visitantes esperados. Declarada de interesse cultural pela OEA.",
+        "tipo": "Arte"
+      },
+      {
+        "fecha": "Mar-Nov",
+        "año": "2025",
+        "titulo": "Temporada de Observação de Aves",
+        "lugar": "Parques Nacionais Chaco e Impenetrável",
+        "descripcion": "Melhor época para observar mais de 350 espécies. Safaris fotográficos e excursões guiadas disponíveis.",
+        "tipo": "Natureza"
+      }
+    ],
+    "estaciones": [
+      {
+        "titulo": "🌸 Primavera (Set-Nov)",
+        "items": [
+          "Torneio de Pesca do Dourado (Set)",
+          "Cavalgada de São Carlos (Out)",
+          "Festa Patronal La Escondida (4 Nov)"
+        ]
+      },
+      {
+        "titulo": "❄️ Inverno (Jun-Ago)",
+        "items": [
+          "Bienal de Esculturas (Jul - a cada 2 anos)",
+          "Melhor época para El Impenetrable",
+          "Temporada ideal de observação"
+        ]
+      },
+      {
+        "titulo": "🍂 Outono (Mar-Mai)",
+        "items": [
+          "Festival Regional do Guisado (Mar)",
+          "Clima ideal para parques nacionais",
+          "Pesca esportiva no seu melhor momento"
+        ]
+      },
+      {
+        "titulo": "☀️ Verão (Dez-Fev)",
+        "items": [
+          "Praias e balneários do Paraná",
+          "Festivais de verão",
+          "⚠️ Temporada de chuvas e calor"
+        ]
+      }
+    ]
+  },
+  "noticias": {
+    "title": "Novidades do Chaco",
+    "subtitle": "Fique informado sobre turismo, cultura e natureza em La Escondida e na província",
+    "categorias": {
+      "naturaleza": "Natureza",
+      "deportes": "Esportes",
+      "cultura": "Cultura",
+      "arte": "Arte",
+      "turismo": "Turismo",
+      "conservacion": "Conservação"
+    },
+    "fuente": "Fonte"
+  },
+  "whatsapp": {
+    "needHelp": "Precisa de ajuda para planejar sua visita?",
+    "button": "Fale conosco pelo WhatsApp"
+  },
+  "common": {
+    "readMore": "Ler mais",
+    "viewMap": "Ver no mapa",
+    "subscribe": "Inscreva-se"
+  }
+}

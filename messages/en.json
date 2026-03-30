@@ -1,0 +1,512 @@
+{
+  "nav": {
+    "imperdibles": "Must-See",
+    "planifica": "Plan",
+    "alojamiento": "Accommodation",
+    "gastronomia": "Gastronomy",
+    "eventos": "Events",
+    "noticias": "News"
+  },
+  "hero": {
+    "title": "La Escondida",
+    "subtitle": "Tourism in the Heart of Chaco",
+    "description": "Discover the nature, culture and traditions of the Chaco interior. An authentic destination where adventure and tranquility meet.",
+    "cta": "Explore La Escondida",
+    "slides": [
+      {
+        "titulo": "Welcome to La Escondida",
+        "subtitulo": "Your natural refuge in Chaco"
+      },
+      {
+        "titulo": "Paraná River",
+        "subtitulo": "Beaches and water adventures"
+      },
+      {
+        "titulo": "Pure Nature",
+        "subtitulo": "Discover unique landscapes"
+      }
+    ]
+  },
+  "imperdibles": {
+    "title": "Must-See Places in La Escondida and Chaco",
+    "subtitle": "Discover wild nature, cultural heritage and authentic traditions in the heart of Argentine Chaco",
+    "mejorEpoca": "Best time to visit: April - November (pleasant weather 15-28°C)",
+    "fauna": "Featured wildlife: Jaguar, Tapir, Black-legged Seriema, Golden Dorado, Surubí",
+    "items": [
+      {
+        "titulo": "Resistencia - City of Sculptures",
+        "descripcion": "National Capital of Sculptures with more than 650 outdoor works. World-renowned open-air museum.",
+        "duracion": "Half day - Full day",
+        "distancia": "70 km",
+        "highlights": [
+          "International Biennial",
+          "El Fogón de los Arrieros",
+          "+ 650 sculptures"
+        ]
+      },
+      {
+        "titulo": "Isla del Cerrito - Sport Fishing",
+        "descripcion": "One of Argentina's best fishing spots. Catch golden dorado, surubí and pacú in the Paraná and Paraguay rivers.",
+        "duracion": "Full day",
+        "distancia": "90 km",
+        "highlights": [
+          "International Dorado Tournament",
+          "River gastronomy",
+          "Boat tours"
+        ]
+      },
+      {
+        "titulo": "Chaco National Park",
+        "descripcion": "Forests, lagoons and 350 bird species. Trails, viewpoints and wildlife watching in the humid Chaco.",
+        "duracion": "Half day",
+        "distancia": "130 km",
+        "highlights": [
+          "350 bird species",
+          "Yacaré Lagoon",
+          "Camping"
+        ]
+      },
+      {
+        "titulo": "El Impenetrable National Park",
+        "descripcion": "128,000 hectares of the mythical Dry Chaco. Jaguars, tapirs and over 300 wild bird species.",
+        "duracion": "2-3 days",
+        "distancia": "400 km",
+        "highlights": [
+          "Bermejo River",
+          "Photo safari",
+          "Glamping"
+        ]
+      },
+      {
+        "titulo": "Industrial Heritage - Tannin Factory",
+        "descripcion": "Living history of La Escondida. Founded in 1927 alongside Indunor S.A., one of Chaco's two tannin factories.",
+        "duracion": "2-3 hours",
+        "distancia": "In La Escondida",
+        "highlights": [
+          "History since 1927",
+          "Industrial architecture",
+          "Tannin tradition"
+        ]
+      },
+      {
+        "titulo": "San Carlos Borromeo Pilgrimage",
+        "descripcion": "Chaco tradition every last Sunday of October. Riders from El Cacique Llorón with a folk festival.",
+        "duracion": "Full day",
+        "distancia": "In La Escondida",
+        "highlights": [
+          "Tradition since 1927",
+          "Folk festival",
+          "Patron saint feast Nov 4"
+        ]
+      }
+    ]
+  },
+  "planifica": {
+    "title": "Plan Your Visit",
+    "subtitle": "Everything you need to know to make the most of your stay in La Escondida",
+    "comoLlegar": {
+      "title": "How to Get There",
+      "fromResistencia": "From Resistencia",
+      "distance": "70 km via Provincial Route 11",
+      "time": "Estimated time",
+      "duration": "1 hour by car",
+      "access": "Access",
+      "accessType": "Paved and signposted road",
+      "button": "View on Google Maps",
+      "location": "General Donovan Department, Chaco"
+    },
+    "alojamiento": {
+      "title": "Accommodation",
+      "description": "Lodging options for all tastes and budgets",
+      "options": {
+        "hosterias": "Inns and guesthouses",
+        "cabanas": "Equipped cabins",
+        "camping": "Camping and glamping",
+        "hoteles": "Hotels in Resistencia"
+      },
+      "button": "View Options"
+    },
+    "gastronomia": {
+      "title": "Gastronomy",
+      "description": "Authentic flavors of Chaco and the Argentine Littoral",
+      "options": {
+        "pescados": "Fresh river fish",
+        "parrilla": "Chaqueña grill",
+        "chipa": "Chipá and typical foods",
+        "regional": "Regional cuisine"
+      },
+      "button": "Discover Flavors"
+    },
+    "infoUtil": {
+      "title": "Useful Information for Your Trip",
+      "mejorEpoca": {
+        "title": "Best time to visit",
+        "abrNov": "April - November: Ideal climate (15-28°C) for outdoor activities",
+        "dicMar": "December - March: Hot summer (30-40°C), ideal for water activities"
+      },
+      "servicios": {
+        "title": "Available services",
+        "estaciones": "Gas stations on the route",
+        "cajeros": "ATMs in nearby towns",
+        "telefonia": "Mobile phone coverage",
+        "wifi": "WiFi at accommodations"
+      },
+      "transporte": {
+        "title": "Public transportation",
+        "description": "Bus lines from Resistencia Terminal. Check updated schedules."
+      },
+      "aeropuerto": {
+        "title": "Nearest airport",
+        "description": "Resistencia International Airport (90 km). Direct flights from Buenos Aires and Córdoba."
+      },
+      "whatsappButton": "Contact us on WhatsApp"
+    }
+  },
+  "alojamiento": {
+    "fueraDeLocalidad": "Outside La Escondida",
+    "title": "Where to Stay",
+    "subtitle": "From riverside cabins to premium hotels in Resistencia. Find the perfect accommodation for your stay in Chaco.",
+    "recomendado": "Recommended",
+    "servicios": "Services:",
+    "rangoPrecio": "Price range:",
+    "porNoche": "per night",
+    "masServicios": "more services",
+    "consultarBtn": "Check Availability",
+    "tipsTitle": "Tips for choosing accommodation",
+    "tips": [
+      "In La Escondida: Ideal for the local experience and quick access to historic sites",
+      "Resistencia: More options, restaurants and services. Base for exploring the region",
+      "Camping: For nature lovers and tight budgets",
+      "Cabins: Perfect for families looking for privacy and cooking"
+    ],
+    "reservasTitle": "Booking recommendations",
+    "reservas": [
+      "High season: Book 2-3 weeks in advance (Sep-Nov)",
+      "Fishing Tournament: Book 2 months in advance (Sep 5-7)",
+      "Sculpture Biennial: Hotels in Resistencia fill up fast (July)",
+      "Best price: Low season (Dec-Mar) but consider the heat"
+    ],
+    "ayudaTitle": "Need help finding accommodation?",
+    "ayudaSubtitle": "Contact us and we'll advise you based on your preferences and budget",
+    "ayudaBtn": "Contact us on WhatsApp",
+    "precios": {
+      "$": "$2,000 - $5,000",
+      "$$": "$5,000 - $15,000",
+      "$$$": "$15,000 - $35,000"
+    }
+  },
+  "gastronomia": {
+    "fueraDeLocalidad": "Outside La Escondida",
+    "title": "Flavors of Chaco",
+    "subtitle": "Discover authentic Chaco gastronomy: river fish, traditional grills and Guaraní heritage in every dish",
+    "dondeComer": "Where to Eat",
+    "platosTipicos": "Typical Dishes of Chaco",
+    "recomendado": "Recommended",
+    "especialidades": "Specialties:",
+    "precioPromedio": "Average price:",
+    "pescadosTitle": "River Fish from the Paraná",
+    "saboresTitle": "Traditional Flavors",
+    "guiaTitle": "Chaco Gastronomic Guide",
+    "dondeEncontrar": "Where to find each specialty",
+    "dondeItems": [
+      "Fresh fish: Isla del Cerrito, Puerto Vilelas",
+      "Traditional grills: Resistencia center",
+      "Home cooking: La Escondida, La Verde",
+      "Artisan chipá: Local fairs and bakeries"
+    ],
+    "rangoTitle": "Price range",
+    "rangoItems": [
+      "Budget ($): Fondas and diners $3,000-6,000",
+      "Moderate ($$): Restaurants $6,000-12,000",
+      "Premium ($$$): Fine dining $12,000-25,000",
+      "Tip: Lunch is usually cheaper than dinner"
+    ],
+    "recomendacionesTitle": "Looking for personalized recommendations?",
+    "recomendacionesSubtitle": "We suggest the best places based on your budget and preferences",
+    "whatsappBtn": "Contact us on WhatsApp",
+    "horariosTitle": "Typical hours in Chaco",
+    "horarios": "Lunch: 12:00 - 15:00 • Dinner: 20:00 - 24:00",
+    "horariosNota": "On Sundays at noon many restaurants offer special menus",
+    "precios": {
+      "$": "$3,000 - $6,000 per person",
+      "$$": "$6,000 - $12,000 per person",
+      "$$$": "$12,000 - $25,000 per person"
+    },
+    "pescados": [
+      {
+        "nombre": "Surubí",
+        "descripcion": "The most popular. White, firm and tasty meat. Ideal grilled or breaded."
+      },
+      {
+        "nombre": "Dorado",
+        "descripcion": "The ultimate sport fish. Intense flavor, best fresh from the river."
+      },
+      {
+        "nombre": "Pacú",
+        "descripcion": "Delicious fried or grilled. A regional staple, not to be missed."
+      },
+      {
+        "nombre": "Boga",
+        "descripcion": "Small fish, excellent fried. Affordable and delicious."
+      }
+    ],
+    "sabores": [
+      {
+        "nombre": "Chipá",
+        "descripcion": "Cheese and cassava starch roll. Eaten hot or cold with mate."
+      },
+      {
+        "nombre": "Cane Honey",
+        "descripcion": "Regional sweet used in desserts and craft beers."
+      },
+      {
+        "nombre": "Tereré",
+        "descripcion": "Cold herbal mate. The social drink of the Chaco summer."
+      },
+      {
+        "nombre": "Northern Grill",
+        "descripcion": "Grilled cuts with Guaraní and creole influence."
+      }
+    ],
+    "restaurantes": [
+      {
+        "nombre": "Casa de Comidas Isabella",
+        "tipo": "Home Kitchen",
+        "descripcion": "Hearty homemade food in Barrio San José. Schnitzels, pasta, roast chicken, pies and more. Generous portions, affordable prices.",
+        "especialidades": [
+          "Napolitana schnitzel",
+          "Homemade pasta",
+          "Roast chicken",
+          "Spinach pie"
+        ],
+        "ubicacion": "Barrio San José, La Escondida",
+        "precio": "$",
+        "destacado": true
+      },
+      {
+        "nombre": "Comedor Delicias",
+        "tipo": "Roadside Diner",
+        "descripcion": "Diner on Route 9 with indoor seating and outdoor deck. Open from 5am every day. Great for a quick stop or dinner.",
+        "especialidades": [
+          "Schnitzels",
+          "French fries",
+          "Daily specials",
+          "Short orders"
+        ],
+        "ubicacion": "Route 9, La Escondida access",
+        "precio": "$",
+        "destacado": true
+      },
+      {
+        "nombre": "Bufet La Gloriosa",
+        "tipo": "Local Diner",
+        "descripcion": "Local homestyle food option in La Escondida, by Rosa Núñez. Check availability and daily menu.",
+        "especialidades": [
+          "Daily menu",
+          "Homemade food",
+          "Regional dishes",
+          "Takeaway"
+        ],
+        "ubicacion": "La Escondida",
+        "precio": "$",
+        "destacado": false
+      },
+      {
+        "nombre": "El Fogón de los Arrieros",
+        "tipo": "Traditional Grill",
+        "descripcion": "Iconic cultural center and restaurant in Resistencia since 1943. Top-quality Argentine grill in a historic setting.",
+        "especialidades": [
+          "Short ribs",
+          "Flank steak",
+          "Chorizo steak",
+          "Full grill"
+        ],
+        "ubicacion": "Resistencia (70 km)",
+        "precio": "$$",
+        "destacado": false
+      },
+      {
+        "nombre": "Restaurante del Puerto",
+        "tipo": "River Fish",
+        "descripcion": "Specialized in fresh Paraná fish. Surubí, dorado and pacú grilled, pan-seared or baked.",
+        "especialidades": [
+          "Grilled surubí",
+          "Lemon dorado",
+          "Fried pacú",
+          "Surubí schnitzel"
+        ],
+        "ubicacion": "Isla del Cerrito (90 km)",
+        "precio": "$$",
+        "destacado": false
+      },
+      {
+        "nombre": "La Querencia",
+        "tipo": "Regional Cuisine",
+        "descripcion": "Authentic flavors of northern Argentina in Resistencia. Typical Chaco dishes in a warm setting with traditional decor.",
+        "especialidades": [
+          "Northern locro",
+          "Creole empanadas",
+          "Humita",
+          "Tamales"
+        ],
+        "ubicacion": "Resistencia (70 km)",
+        "precio": "$$",
+        "destacado": false
+      }
+    ],
+    "platosList": [
+      {
+        "nombre": "Chipá",
+        "descripcion": "Guaraní cheese roll made with cassava starch. Perfect with mate.",
+        "categoria": "Traditional"
+      },
+      {
+        "nombre": "Surubí",
+        "descripcion": "Paraná river fish, grilled or fried. Mild flavor and firm texture.",
+        "categoria": "Fish"
+      },
+      {
+        "nombre": "Northern Locro",
+        "descripcion": "Traditional stew with corn, beans, meat and vegetables. The Chaco version of an Argentine classic.",
+        "categoria": "Traditional"
+      },
+      {
+        "nombre": "Dorado",
+        "descripcion": "King of the rivers. The ultimate sport fish, served fresh from the Paraná.",
+        "categoria": "Fish"
+      },
+      {
+        "nombre": "Mbeyú",
+        "descripcion": "Cassava starch and cheese tortilla. A Guaraní specialty of the Argentine Littoral.",
+        "categoria": "Traditional"
+      },
+      {
+        "nombre": "Chaco Grill",
+        "descripcion": "Grilled cuts in northern style. Served with chipá and salads.",
+        "categoria": "Grill"
+      }
+    ]
+  },
+  "eventos": {
+    "title": "Events and Festivals",
+    "subtitle": "Experience Chaco tradition, local flavors and pure nature throughout the year",
+    "fueraDeLocalidad": "Outside La Escondida",
+    "calendarioTitle": "Chaco Tourism Calendar 2025",
+    "tipLabel": "Tip:",
+    "tip": "For El Impenetrable and Chaco National Park, check road conditions during rainy season (Dec-Mar)",
+    "tipos": {
+      "deportivo": "Sports",
+      "cultural": "Cultural",
+      "religioso": "Religious",
+      "arte": "Art",
+      "naturaleza": "Nature",
+      "gastronomico": "Gastronomic"
+    },
+    "items": [
+      {
+        "fecha": "Mar",
+        "año": "2026",
+        "titulo": "Regional Stew Festival",
+        "lugar": "Km 548, La Escondida",
+        "descripcion": "Regional food festival featuring a stew competition, live music and community participation. Organized by the Municipality of La Escondida. The 3rd edition brought together cooks from across the region.",
+        "tipo": "Gastronomic"
+      },
+      {
+        "fecha": "Sep 5-7",
+        "año": "2025",
+        "titulo": "XXI International Dorado Fishing Tournament",
+        "lugar": "Isla del Cerrito",
+        "descripcion": "Catch-and-release fishing. Expected record: 400-450 boats. Includes cultural, gastronomic activities and a children's tournament.",
+        "tipo": "Sports"
+      },
+      {
+        "fecha": "Oct 26",
+        "año": "2025",
+        "titulo": "San Carlos Borromeo Blessing Ride",
+        "lugar": "La Escondida",
+        "descripcion": "Chaco tradition. Riders from El Cacique Llorón (Km 548) through all neighborhoods. Folk festival included.",
+        "tipo": "Cultural"
+      },
+      {
+        "fecha": "Nov 4",
+        "año": "2025",
+        "titulo": "San Carlos Borromeo Patron Saint Feast",
+        "lugar": "La Escondida",
+        "descripcion": "Anniversary of La Escondida's founding (1927). Religious celebration, craft fair and traditional activities.",
+        "tipo": "Religious"
+      },
+      {
+        "fecha": "July",
+        "año": "2026",
+        "titulo": "XIII International Sculpture Biennial",
+        "lugar": "Resistencia",
+        "descripcion": "Artists from around the world create works in the open air. Over 650,000 visitors expected. Declared of cultural interest by the OAS.",
+        "tipo": "Art"
+      },
+      {
+        "fecha": "Mar-Nov",
+        "año": "2025",
+        "titulo": "Birdwatching Season",
+        "lugar": "Chaco and El Impenetrable National Parks",
+        "descripcion": "Best time to observe over 350 species. Photo safaris and guided tours available.",
+        "tipo": "Nature"
+      }
+    ],
+    "estaciones": [
+      {
+        "titulo": "🌸 Spring (Sep-Nov)",
+        "items": [
+          "Dorado Fishing Tournament (Sep)",
+          "San Carlos Pilgrimage (Oct)",
+          "La Escondida Patron Feast (Nov 4)"
+        ]
+      },
+      {
+        "titulo": "❄️ Winter (Jun-Aug)",
+        "items": [
+          "Sculpture Biennial (Jul - every 2 years)",
+          "Best time for El Impenetrable",
+          "Peak birdwatching season"
+        ]
+      },
+      {
+        "titulo": "🍂 Autumn (Mar-May)",
+        "items": [
+          "Regional Stew Festival (Mar)",
+          "Ideal weather for national parks",
+          "Sport fishing at its best"
+        ]
+      },
+      {
+        "titulo": "☀️ Summer (Dec-Feb)",
+        "items": [
+          "Paraná river beaches",
+          "Summer festivals",
+          "⚠️ Rainy season and heat"
+        ]
+      }
+    ]
+  },
+  "noticias": {
+    "title": "Chaco News",
+    "subtitle": "Stay informed about tourism, culture and nature in La Escondida and the province",
+    "categorias": {
+      "naturaleza": "Nature",
+      "deportes": "Sports",
+      "cultura": "Culture",
+      "arte": "Art",
+      "turismo": "Tourism",
+      "conservacion": "Conservation"
+    },
+    "fuente": "Source"
+  },
+  "whatsapp": {
+    "needHelp": "Need help planning your visit?",
+    "button": "Contact us on WhatsApp"
+  },
+  "common": {
+    "readMore": "Read more",
+    "viewMap": "View on map",
+    "subscribe": "Subscribe"
+  }
+}

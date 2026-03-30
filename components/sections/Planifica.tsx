@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   MapPin,
@@ -12,8 +13,9 @@ import {
 import { Button } from "@/components/ui/button";
 
 export default function Planifica() {
+  const t = useTranslations("planifica");
+
   const handleComoLlegar = () => {
-    // Coordenadas aproximadas de La Escondida, Chaco
     const lat = -27.1167;
     const lng = -59.3833;
     window.open(
@@ -29,11 +31,10 @@ export default function Planifica() {
     >
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-emerald-700 mb-4">
-          Planificá tu Visita
+          {t("title")}
         </h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          Todo lo que necesitás saber para disfrutar al máximo tu estadía en La
-          Escondida
+          {t("subtitle")}
         </p>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -44,7 +45,7 @@ export default function Planifica() {
                 <MapPin className="w-10 h-10 text-emerald-600 group-hover:text-white transition" />
               </div>
               <CardTitle className="text-emerald-700 text-2xl">
-                Cómo Llegar
+                {t("comoLlegar.title")}
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -53,10 +54,10 @@ export default function Planifica() {
                   <Navigation className="w-5 h-5 text-emerald-600 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-gray-800">
-                      Desde Resistencia
+                      {t("comoLlegar.fromResistencia")}
                     </p>
                     <p className="text-gray-600 text-sm">
-                      70 km por Ruta Provincial 11
+                      {t("comoLlegar.distance")}
                     </p>
                   </div>
                 </div>
@@ -64,17 +65,21 @@ export default function Planifica() {
                   <Clock className="w-5 h-5 text-emerald-600 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-gray-800">
-                      Tiempo estimado
+                      {t("comoLlegar.time")}
                     </p>
-                    <p className="text-gray-600 text-sm">1 hora en auto</p>
+                    <p className="text-gray-600 text-sm">
+                      {t("comoLlegar.duration")}
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-5 h-5 text-emerald-600 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-gray-800">Acceso</p>
+                    <p className="font-semibold text-gray-800">
+                      {t("comoLlegar.access")}
+                    </p>
                     <p className="text-gray-600 text-sm">
-                      Ruta asfaltada y señalizada
+                      {t("comoLlegar.accessType")}
                     </p>
                   </div>
                 </div>
@@ -85,11 +90,11 @@ export default function Planifica() {
                 className="w-full bg-emerald-600 hover:bg-emerald-700 text-white mt-4"
               >
                 <Navigation className="w-4 h-4 mr-2" />
-                Ver en Google Maps
+                {t("comoLlegar.button")}
               </Button>
 
               <div className="text-xs text-gray-500 mt-2">
-                📍 Departamento General Donovan, Chaco
+                📍 {t("comoLlegar.location")}
               </div>
             </CardContent>
           </Card>
@@ -102,31 +107,35 @@ export default function Planifica() {
                   <Users className="w-10 h-10 text-blue-600 group-hover:text-white transition" />
                 </div>
                 <CardTitle className="text-blue-700 text-2xl">
-                  Alojamiento
+                  {t("alojamiento.title")}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-gray-700">
-                  Opciones de hospedaje para todos los gustos y presupuestos
-                </p>
+                <p className="text-gray-700">{t("alojamiento.description")}</p>
 
                 <div className="space-y-2 text-left">
                   <div className="flex items-center space-x-2 text-sm">
                     <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
-                    <span className="text-gray-600">Hosterías y posadas</span>
-                  </div>
-                  <div className="flex items-center space-x-2 text-sm">
-                    <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
-                    <span className="text-gray-600">Cabañas equipadas</span>
-                  </div>
-                  <div className="flex items-center space-x-2 text-sm">
-                    <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
-                    <span className="text-gray-600">Camping y glamping</span>
+                    <span className="text-gray-600">
+                      {t("alojamiento.options.hosterias")}
+                    </span>
                   </div>
                   <div className="flex items-center space-x-2 text-sm">
                     <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
                     <span className="text-gray-600">
-                      Hoteles en Resistencia
+                      {t("alojamiento.options.cabanas")}
+                    </span>
+                  </div>
+                  <div className="flex items-center space-x-2 text-sm">
+                    <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
+                    <span className="text-gray-600">
+                      {t("alojamiento.options.camping")}
+                    </span>
+                  </div>
+                  <div className="flex items-center space-x-2 text-sm">
+                    <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
+                    <span className="text-gray-600">
+                      {t("alojamiento.options.hoteles")}
                     </span>
                   </div>
                 </div>
@@ -140,7 +149,7 @@ export default function Planifica() {
                       ?.scrollIntoView({ behavior: "smooth" });
                   }}
                 >
-                  Ver Opciones
+                  {t("alojamiento.button")}
                 </Button>
               </CardContent>
             </a>
@@ -154,34 +163,36 @@ export default function Planifica() {
                   <DollarSign className="w-10 h-10 text-amber-600 group-hover:text-white transition" />
                 </div>
                 <CardTitle className="text-amber-700 text-2xl">
-                  Gastronomía
+                  {t("gastronomia.title")}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-gray-700">
-                  Sabores auténticos del Chaco y el Litoral argentino
-                </p>
+                <p className="text-gray-700">{t("gastronomia.description")}</p>
 
                 <div className="space-y-2 text-left">
                   <div className="flex items-center space-x-2 text-sm">
                     <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
                     <span className="text-gray-600">
-                      Pescados de río frescos
+                      {t("gastronomia.options.pescados")}
                     </span>
-                  </div>
-                  <div className="flex items-center space-x-2 text-sm">
-                    <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
-                    <span className="text-gray-600">Parrilla chaqueña</span>
                   </div>
                   <div className="flex items-center space-x-2 text-sm">
                     <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
                     <span className="text-gray-600">
-                      Chipá y comidas típicas
+                      {t("gastronomia.options.parrilla")}
                     </span>
                   </div>
                   <div className="flex items-center space-x-2 text-sm">
                     <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
-                    <span className="text-gray-600">Cocina regional</span>
+                    <span className="text-gray-600">
+                      {t("gastronomia.options.chipa")}
+                    </span>
+                  </div>
+                  <div className="flex items-center space-x-2 text-sm">
+                    <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
+                    <span className="text-gray-600">
+                      {t("gastronomia.options.regional")}
+                    </span>
                   </div>
                 </div>
 
@@ -194,83 +205,27 @@ export default function Planifica() {
                       ?.scrollIntoView({ behavior: "smooth" });
                   }}
                 >
-                  Descubrir Sabores
+                  {t("gastronomia.button")}
                 </Button>
               </CardContent>
             </a>
           </Card>
         </div>
 
-        {/* Información adicional */}
-        <div className="bg-emerald-50 rounded-lg p-8 max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold text-emerald-700 mb-6 text-center">
-            Información Útil para tu Viaje
-          </h3>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="space-y-3">
-              <h4 className="font-semibold text-emerald-700 flex items-center">
-                <Clock className="w-5 h-5 mr-2" />
-                Mejor época para visitar
-              </h4>
-              <p className="text-gray-700 text-sm">
-                <strong>Abril - Noviembre:</strong> Clima ideal (15-28°C) para
-                actividades al aire libre
-              </p>
-              <p className="text-gray-700 text-sm">
-                <strong>Diciembre - Marzo:</strong> Verano caluroso (30-40°C),
-                ideal para actividades acuáticas
-              </p>
-            </div>
-
-            <div className="space-y-3">
-              <h4 className="font-semibold text-emerald-700 flex items-center">
-                <Phone className="w-5 h-5 mr-2" />
-                Servicios disponibles
-              </h4>
-              <ul className="text-gray-700 text-sm space-y-1">
-                <li>• Estaciones de servicio en la ruta</li>
-                <li>• Cajeros automáticos en localidades cercanas</li>
-                <li>• Cobertura de telefonía móvil</li>
-                <li>• WiFi en alojamientos</li>
-              </ul>
-            </div>
-
-            <div className="space-y-3">
-              <h4 className="font-semibold text-emerald-700">
-                🚗 Transporte público
-              </h4>
-              <p className="text-gray-700 text-sm">
-                Líneas de colectivo desde Terminal de Resistencia. Consultar
-                horarios actualizados.
-              </p>
-            </div>
-
-            <div className="space-y-3">
-              <h4 className="font-semibold text-emerald-700">
-                ✈️ Aeropuerto más cercano
-              </h4>
-              <p className="text-gray-700 text-sm">
-                Aeropuerto Internacional de Resistencia (90 km). Vuelos directos
-                desde Buenos Aires y Córdoba.
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-6 text-center">
-            <Button
-              onClick={() =>
-                window.open(
-                  "https://wa.me/5493624000000?text=Hola!%20Necesito%20información%20sobre%20La%20Escondida",
-                  "_blank"
-                )
-              }
-              className="bg-green-500 hover:bg-green-600 text-white"
-            >
-              <Phone className="w-4 h-4 mr-2" />
-              Consultanos por WhatsApp
-            </Button>
-          </div>
+        {/* Botón WhatsApp */}
+        <div className="mt-8 text-center">
+          <Button
+            onClick={() =>
+              window.open(
+                "https://wa.me/5493624000000?text=Hola!%20Necesito%20información%20sobre%20La%20Escondida",
+                "_blank"
+              )
+            }
+            className="bg-green-500 hover:bg-green-600 text-white"
+          >
+            <Phone className="w-4 h-4 mr-2" />
+            {t("infoUtil.whatsappButton")}
+          </Button>
         </div>
       </div>
     </section>
