@@ -1,5 +1,6 @@
 {
   "nav": {
+    "historia": "História",
     "imperdibles": "Imperdíveis",
     "planifica": "Planeje",
     "alojamiento": "Hospedagem",
@@ -26,6 +27,24 @@
         "subtitulo": "Descubra paisagens únicas"
       }
     ]
+  },
+  "historia": {
+    "title": "História de La Escondida",
+    "subtitle": "Descubra as origens e a rica história de La Escondida, desde sua fundação como Cidade Jardim até o presente.",
+    "cards": {
+      "ciudadJardin": {
+        "title": "Cidade Jardim",
+        "description": "La Escondida é diferente das outras cidades industriais chaqueñas devido à sua organização e estrutura funcional. A empresa Noetinger & Lepetit S.A. Forestal Industrial y Ganadera, fundada por Carlos Noetinger e Roberto Emilio Lepetit, adquirió estas terras em 1912 para dedicá-las à exploração florestal. Em 1926 o arquiteto Hardoy desenhou o traçado urbano — um plano semelhante a um favo de mel, com ruas curvas, cada uma arborizada com uma espécie de árvore diferente. Por isso é conhecida como Cidade Jardim. Em 1935 a localidade foi oficialmente designada como \"La Escondida\", pela proximidade da lagoa de mesmo nome."
+      },
+      "fabricaTanino": {
+        "title": "A Fábrica de Tanino",
+        "description": "A fábrica começou a funcionar em 1927 e foi localizada entre a Lagoa Escondida e a população. Em 29 de setembro de 1927 soou o primeiro silvo anunciando a primeira produção de extrato de quebracho com a marca TUFÁ. Em 1965 a empresa se fusionou com La Chaqueña SA tornando-se INDUNOR S.A. Atualmente produz cerca de 25.000 toneladas de tanino de quebracho por año. Sobre trilhos de bitola estreita circulavam duas locomotivas a vapor chamadas \"Robertito\" e \"Don Enrique\" que conectavam a fábrica com as estações de trem."
+      },
+      "organizacionPueblo": {
+        "title": "A Organização da Cidade",
+        "description": "Foram construídas casas para funcionários diferenciadas por hierarquias. Havia uma Loja de Ramos Gerais, uma fábrica de cigarros onde se produziam charutos e tabaco (a maioria das trabalhadoras eram mulheres), e um hotel para funcionários administrativos. Em 1928 foi criado o Club San Carlos com um amplo salão para reuniões sociais, bailes e eventos esportivos. A escola primária N°176 também foi construída pela fábrica."
+      }
+    }
   },
   "imperdibles": {
     "title": "Imperdíveis de La Escondida e Chaco",

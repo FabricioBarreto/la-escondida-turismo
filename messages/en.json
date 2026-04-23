@@ -1,5 +1,6 @@
 {
   "nav": {
+    "historia": "History",
     "imperdibles": "Must-See",
     "planifica": "Plan",
     "alojamiento": "Accommodation",
@@ -26,6 +27,24 @@
         "subtitulo": "Discover unique landscapes"
       }
     ]
+  },
+  "historia": {
+    "title": "History of La Escondida",
+    "subtitle": "Discover the origins and rich history of La Escondida, from its founding as a Garden City to the present.",
+    "cards": {
+      "ciudadJardin": {
+        "title": "Garden City",
+        "description": "La Escondida is different from other Chaco industrial towns due to its organization and functional structure. The company Noetinger & Lepetit S.A. Forestal Industrial y Ganadera, founded by Carlos Noetinger and Roberto Emilio Lepetit, acquired these lands in 1912 for forestry exploitation. In 1926 architect Hardoy designed the urban layout — a plan similar to a honeycomb, with curved streets, each planted with a different tree species. That's why it's known as Garden City. In 1935 the town was officially designated \"La Escondida\", due to its proximity to the lagoon of the same name."
+      },
+      "fabricaTanino": {
+        "title": "The Tannin Factory",
+        "description": "The factory began operating in 1927 and was located between Laguna Escondida and the population. On September 29, 1927, the first whistle sounded announcing the first production of quebracho extract with the TUFÁ brand. In 1965 the company merged with La Chaqueña SA becoming INDUNOR S.A. Currently it produces around 25,000 tons of quebracho tannin per year. On narrow gauge tracks, two steam locomotives called \"Robertito\" and \"Don Enrique\" operated, connecting the factory with railway stations."
+      },
+      "organizacionPueblo": {
+        "title": "Town Organization",
+        "description": "Houses were built for employees differentiated by hierarchy. There was a General Store, a cigarette factory where cigars and tobacco were produced (most workers were women), and a hotel for administrative employees. In 1928 the San Carlos Club was created with a large venue for social gatherings, dances and sporting events. Primary school N°176 was also built by the factory."
+      }
+    }
   },
   "imperdibles": {
     "title": "Must-See Places in La Escondida and Chaco",

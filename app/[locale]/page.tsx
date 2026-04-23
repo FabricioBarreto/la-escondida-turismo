@@ -1,5 +1,6 @@
 "use client";
 import Hero from "@/components/sections/Hero";
+import Historia from "@/components/sections/Historia";
 import Imperdibles from "@/components/sections/Imperdibles";
 import Planifica from "@/components/sections/Planifica";
 import Alojamiento from "@/components/sections/Alojamiento";
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <main className="min-h-screen">
         <Hero />
+        <Historia />
         <Imperdibles />
         <Planifica />
         <Alojamiento />
